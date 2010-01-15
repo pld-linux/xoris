@@ -7,6 +7,7 @@ Group:		Applications
 Source0:	http://dl.sourceforge.net/xoris/%{name}-%{version}.tar.gz
 # Source0-md5:	f1e8abbb5e57f66f52335a37f5405207
 URL:		http://sourceforge.net/projects/xoris/
+BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	xorg-util-imake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
